@@ -1,0 +1,20 @@
+import requests
+
+def fetch_product_info(product_id):
+    """
+    Simulated API call to fetch product details.
+    """
+    mock_api_response = {
+        "P101": "Laptop",
+        "P102": "Mouse",
+        "P103": "Keyboard",
+        "P104": "Monitor",
+        "P105": "Webcam",
+        "P106": "Headphones",
+        "P107": "USB Cable",
+        "P108": "External Hard Drive",
+        "P109": "Wireless Mouse",
+        "P110": "Laptop Charger"
+    }
+
+    return mock_api_response.get(product_id, "Unknown Product")
