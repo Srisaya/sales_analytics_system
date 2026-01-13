@@ -9,12 +9,5 @@ def fetch_product_info(product_id):
         "P102": "Mouse",
         "P103": "Keyboard",
         "P104": "Monitor",
-        "P105": "Webcam",
-        "P106": "Headphones",
-        "P107": "USB Cable",
-        "P108": "External Hard Drive",
-        "P109": "Wireless Mouse",
-        "P110": "Laptop Charger"
-    }
 
     return mock_api_response.get(product_id, "Unknown Product")
